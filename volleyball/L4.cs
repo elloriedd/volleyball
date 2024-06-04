@@ -21,5 +21,12 @@ namespace volleyball
         {
             this.AutoScroll = true;
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            L4T l4T = new L4T();
+            l4T.Show();
+            this.Hide();
+        }
     }
 }

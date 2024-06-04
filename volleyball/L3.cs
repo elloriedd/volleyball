@@ -24,7 +24,9 @@ namespace volleyball
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            L3T l3T = new L3T();
+            l3T.Show();
+            this.Hide();
         }
     }
 }

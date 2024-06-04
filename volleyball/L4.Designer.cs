@@ -73,6 +73,7 @@
             guna2Button1.Size = new Size(225, 56);
             guna2Button1.TabIndex = 4;
             guna2Button1.Text = "ПРОЙТИ ТЕСТ";
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // L4
             // 

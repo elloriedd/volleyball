@@ -52,7 +52,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Black", 22F, FontStyle.Bold);
             label2.ForeColor = Color.Gold;
-            label2.Location = new Point(388, 35);
+            label2.Location = new Point(410, 29);
             label2.Name = "label2";
             label2.Size = new Size(156, 50);
             label2.TabIndex = 1;
@@ -67,7 +67,7 @@
             guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
             guna2Button1.Font = new Font("Segoe UI Black", 14F, FontStyle.Bold);
             guna2Button1.ForeColor = Color.Gold;
-            guna2Button1.Location = new Point(12, 35);
+            guna2Button1.Location = new Point(12, 29);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2Button1.Size = new Size(225, 56);

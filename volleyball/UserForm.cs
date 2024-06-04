@@ -1,12 +1,18 @@
-﻿using System;
+﻿using Microsoft.Data.SqlClient;
+using Microsoft.SqlServer.Management.Smo;
+using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Shapes;
+using System.Xml.Schema;
 
 namespace volleyball
 {
@@ -73,7 +79,30 @@ namespace volleyball
         private void guna2GradientButton5_Click(object sender, EventArgs e)
         {
 
-            guna2ProgressBar1.Value += 4; // Например, увеличим на 10
+            
+        }
+
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        {
+
+            StreamReader sr = new StreamReader("user.txt");
+            string line;
+            line = sr.ReadLine();
+
+
+            guna2ProgressBar1.Value = 4;
+
+
+
+
+
+
+
+
+
+
+
+
 
             // Проверяем, не превысило ли значение прогресс-бара его максимальное значение
             if (guna2ProgressBar1.Value > guna2ProgressBar1.Maximum)
@@ -81,10 +110,7 @@ namespace volleyball
                 // Если превысило, устанавливаем значение прогресс-бара равным его максимальному значению
                 guna2ProgressBar1.Value = guna2ProgressBar1.Maximum;
             }
-        }
 
-        private void guna2GradientButton4_Click(object sender, EventArgs e)
-        {
             LessonForm lform = new LessonForm();
             lform.Show();
 

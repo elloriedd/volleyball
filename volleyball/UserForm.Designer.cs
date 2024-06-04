@@ -335,6 +335,7 @@
             guna2ProgressBar1.CustomizableEdges = customizableEdges17;
             guna2ProgressBar1.FillColor = Color.Gray;
             guna2ProgressBar1.Location = new Point(32, 65);
+            guna2ProgressBar1.Maximum = 4;
             guna2ProgressBar1.Name = "guna2ProgressBar1";
             guna2ProgressBar1.ProgressColor = Color.Gold;
             guna2ProgressBar1.ProgressColor2 = Color.Lime;
