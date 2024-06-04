@@ -468,7 +468,7 @@
         private Panel panel2;
         private Guna.UI2.WinForms.Guna2CheckBox guna2CheckBox2;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
         private Label label2;
         private FontAwesome.Sharp.IconButton iconButton10;

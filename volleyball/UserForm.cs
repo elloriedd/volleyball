@@ -33,7 +33,7 @@ namespace volleyball
             // Опционально: вы можете добавить здесь код для сохранения переменных, например, в базу данных или файл.
         }
 
-   
+
 
         private void guna2GroupBox3_Click(object sender, EventArgs e)
         {
@@ -73,7 +73,7 @@ namespace volleyball
         private void guna2GradientButton5_Click(object sender, EventArgs e)
         {
 
-            guna2ProgressBar1.Value += 10; // Например, увеличим на 10
+            guna2ProgressBar1.Value += 4; // Например, увеличим на 10
 
             // Проверяем, не превысило ли значение прогресс-бара его максимальное значение
             if (guna2ProgressBar1.Value > guna2ProgressBar1.Maximum)
@@ -83,5 +83,11 @@ namespace volleyball
             }
         }
 
+        private void guna2GradientButton4_Click(object sender, EventArgs e)
+        {
+            LessonForm lform = new LessonForm();
+            lform.Show();
+            this.Hide();
+        }
     }
 }

@@ -458,6 +458,7 @@
             label2.Size = new Size(102, 25);
             label2.TabIndex = 1;
             label2.Text = "User name";
+            label2.Click += label2_Click;
             // 
             // guna2PictureBox1
             // 
@@ -476,6 +477,7 @@
             // 
             panel5.AutoScroll = true;
             panel5.AutoSize = true;
+            panel5.BackColor = Color.FromArgb(69, 69, 69);
             panel5.Dock = DockStyle.Fill;
             panel5.Location = new Point(221, 34);
             panel5.Name = "panel5";

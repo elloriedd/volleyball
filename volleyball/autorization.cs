@@ -16,14 +16,14 @@ namespace volleyball
 {
     public partial class autorization : Form
     {
-       
+
+
         public autorization()
         {
             InitializeComponent();
 
             
         }
-
         private void guna2GradientButton1_Click(object sender, EventArgs e)
         {
            
@@ -33,9 +33,9 @@ namespace volleyball
             }
 
             DB db = new DB();
-            MySqlCommand cmnd = new MySqlCommand("INSERT INTO `login` (`login`, `pass`) VALUES (@login, @pass);", db.getConnection());
+            MySqlCommand cmnd = new MySqlCommand("INSERT INTO `users` (`login`, `password`) VALUES (@login, @password);", db.getConnection());
             cmnd.Parameters.Add("@login", MySqlDbType.VarChar).Value = guna2TextBox1.Text;
-            cmnd.Parameters.Add("@pass", MySqlDbType.VarChar).Value = guna2TextBox2.Text;
+            cmnd.Parameters.Add("@password", MySqlDbType.VarChar).Value = guna2TextBox2.Text;
 
             db.openConnection();
 
@@ -61,7 +61,7 @@ namespace volleyball
             DataTable table = new DataTable();
 
             
-            MySqlCommand cmd = new MySqlCommand("SELECT * FROM `login` WHERE `login` = @uL AND `pass` = @uP", db.getConnection());
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM `users` WHERE `login` = @uL AND `password` = @uP", db.getConnection());
             cmd.Parameters.Add("@uL", MySqlDbType.VarChar).Value = loginUser;
             cmd.Parameters.Add("@uP", MySqlDbType.VarChar).Value = passUser;
 
@@ -79,6 +79,17 @@ namespace volleyball
             }
 
 
+            application app = new application();
+            app.Show();
+            this.Hide();
+           
+            
+        }
+
+        public string login
+        {
+            get { return guna2TextBox6.Text; }
+            set { guna2TextBox6.Text = value; }
         }
 
         private void iconButton10_Click(object sender, EventArgs e)

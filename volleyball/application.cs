@@ -3,6 +3,8 @@ using System.Windows.Forms;
 using static Guna.UI2.WinForms.Helpers.GraphicsHelper;
 using static System.Windows.Forms.DataFormats;
 using MySql.Data.MySqlClient;
+using System.Data;
+using Guna.UI2.WinForms;
 
 namespace volleyball
 {
@@ -10,7 +12,9 @@ namespace volleyball
     {
         public application()
         {
+
             InitializeComponent();
+            
 
         }
 
@@ -28,6 +32,9 @@ namespace volleyball
         private Form acriveForm = null;
         private void openForm(Form childForm)
         {
+
+           
+
             if (acriveForm != null)
                 acriveForm.Close();
             acriveForm = childForm;
@@ -38,6 +45,9 @@ namespace volleyball
             panel5.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
+
+
+
         }
 
         private void SetButtonColors(IconButton button, Color backColor, Color foreColor)
@@ -56,11 +66,11 @@ namespace volleyball
 
             SetButtonColors(iconButton3, defaultBackgroundColor, defaultForegroundColor);
             SetButtonColors(iconButton5, defaultBackgroundColor, defaultForegroundColor);
-            SetButtonColors(iconButton7, defaultBackgroundColor, defaultForegroundColor);
+
 
             leftpanel2.Visible = false;
             leftpanel3.Visible = false;
-            leftpanel4.Visible = false;
+
 
             openForm(new MainForm1());
         }
@@ -74,11 +84,11 @@ namespace volleyball
 
             SetButtonColors(iconButton2, defaultBackgroundColor, defaultForegroundColor);
             SetButtonColors(iconButton5, defaultBackgroundColor, defaultForegroundColor);
-            SetButtonColors(iconButton7, defaultBackgroundColor, defaultForegroundColor);
+
 
             leftpanel1.Visible = false;
             leftpanel3.Visible = false;
-            leftpanel4.Visible = false;
+
 
             openForm(new UserForm());
         }
@@ -92,11 +102,13 @@ namespace volleyball
 
             SetButtonColors(iconButton3, defaultBackgroundColor, defaultForegroundColor);
             SetButtonColors(iconButton2, defaultBackgroundColor, defaultForegroundColor);
-            SetButtonColors(iconButton7, defaultBackgroundColor, defaultForegroundColor);
+
 
             leftpanel2.Visible = false;
             leftpanel1.Visible = false;
-            leftpanel4.Visible = false;
+            LessonForm lform = new LessonForm();
+            lform.Show();
+
         }
 
         private void iconButton7_Click(object sender, EventArgs e)
@@ -104,7 +116,7 @@ namespace volleyball
             IconButton activeButton = (IconButton)sender;
             SetButtonColors(activeButton, activeBackgroundColor, activeForegroundColor);
 
-            leftpanel4.Visible = true;
+
 
             SetButtonColors(iconButton3, defaultBackgroundColor, defaultForegroundColor);
             SetButtonColors(iconButton5, defaultBackgroundColor, defaultForegroundColor);
@@ -155,7 +167,7 @@ namespace volleyball
 
         private void iconButton9_Click_1(object sender, EventArgs e)
         {
-                if (this.WindowState == FormWindowState.Maximized)
+            if (this.WindowState == FormWindowState.Maximized)
             {
                 this.WindowState = FormWindowState.Normal;
                 this.StartPosition = FormStartPosition.CenterScreen;
@@ -222,5 +234,13 @@ namespace volleyball
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            autorization form1 = new autorization();
+            this.label2.Text = form1.login;
+        }
+
+       
     }
 }

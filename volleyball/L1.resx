@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema 
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>РАЗМИНКА ПЕРЕД ВОЛЕЙБОЛОМ
+
+Разминка перед игрой или тренировкой в волейболе имеет решающее значение 
+для подготовки тела к физической нагрузке, улучшения производительности и предотвращения травм. 
+Хорошая разминка должна включать кардио-упражнения, динамическую растяжку и специальные упражнения
+ для разогрева ключевых мышц и суставов, задействованных в волейболе.
+
+1. Кардио-упражнения (5-10 минут)
+Цель кардио-упражнений – увеличить кровообращение, поднять температуру тела и активизировать мышцы.
+
+- Бег на месте: Бегите на месте, высоко поднимая колени.
+- Легкий бег: Бегите трусцой вокруг площадки или зала.
+- Скакалка: Прыжки через скакалку для разогрева всего тела.
+
+2. Динамическая растяжка (5-10 минут)
+Динамическая растяжка помогает подготовить мышцы и суставы к активности, улучшает 
+гибкость и диапазон движений.
+
+- Махи ногами: Стоя на одной ноге, делайте махи другой ногой вперед-назад и в стороны. 
+Повторите 10-15 раз для каждой ноги.
+- Выпады с поворотом: Делайте шаг вперед в выпад, одновременно поворачивая корпус в 
+сторону передней ноги. 
+Повторите 10-12 раз для каждой ноги.
+- Ротация рук: Круговые движения руками вперед и назад, 10-15 раз в каждом направлении.
+- Наклоны в стороны: Стоя прямо, делайте наклоны в стороны, пытаясь дотянуться 
+рукой до противоположного колена. 
+Повторите 10-12 раз для каждой стороны.
+
+3. Специальные упражнения (5-10 минут)
+Эти упражнения нацелены на разогрев мышц и суставов, которые активно используются в волейболе.
+
+- Планка с подъемом рук: Примите положение планки и поочередно поднимайте руки вперед. 
+Повторите 10-12 раз для каждой руки.
+- Прыжки на месте: Прыгайте на месте, имитируя прыжок для блока или атаки. 
+Делайте 10-15 прыжков.
+- Смена позиций в приседе: Примите положение полуприседа и делайте быстрые шаги в стороны, 
+оставаясь в приседе. 
+Повторите 10-15 шагов в каждую сторону.
+- Удары мячом о стену: Если есть возможность, делайте легкие удары мячом о стену, чтобы разогреть руки и плечи.
+
+4. Статическая растяжка (3-5 минут)
+Завершите разминку несколькими статическими растяжками для основных мышечных групп.
+
+- Растяжка квадрицепсов: Стоя, возьмитесь за щиколотку и подтяните пятку к ягодице. 
+Держите растяжку 15-20 секунд для каждой ноги.
+- Растяжка подколенных сухожилий: Сядьте на пол, вытяните одну ногу вперед, другую согните в колене. 
+Наклонитесь к вытянутой ноге, стараясь дотянуться до пальцев. Держите растяжку 15-20 секунд для каждой ноги.
+- Растяжка плеч и рук: Поднимите одну руку вверх и согните ее за головой, другой рукой 
+надавите на локоть сверху, растягивая трицепс. 
+Держите растяжку 15-20 секунд для каждой руки.
+- Растяжка икроножных мышц: Стоя у стены, поставьте одну ногу вперед, другую назад, и, удерживая 
+пятку задней ноги на полу, наклонитесь вперед. 
+Держите растяжку 15-20 секунд для каждой ноги.
+
+Хорошая разминка помогает подготовить тело к интенсивной физической нагрузке, 
+повышает производительность и снижает риск травм. 
+Регулярно выполняйте эти упражнения перед тренировками и играми, 
+чтобы оставаться в отличной физической форме.
+</value>
+  </data>
+</root>
