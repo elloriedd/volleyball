@@ -68,7 +68,7 @@
             iconButton10.IconColor = Color.White;
             iconButton10.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton10.IconSize = 30;
-            iconButton10.Location = new Point(895, 19);
+            iconButton10.Location = new Point(853, 19);
             iconButton10.Name = "iconButton10";
             iconButton10.Size = new Size(30, 32);
             iconButton10.TabIndex = 4;
@@ -79,8 +79,10 @@
             // 
             // L1
             // 
+            AllowDrop = true;
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoScroll = true;
             BackColor = Color.FromArgb(69, 69, 69);
             ClientSize = new Size(953, 676);
             ControlBox = false;

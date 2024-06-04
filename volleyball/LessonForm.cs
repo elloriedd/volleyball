@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,9 +30,8 @@ namespace volleyball
 
         private void iconButton10_Click(object sender, EventArgs e)
         {
-            application app = new application();
-            app.Show();
             this.Hide();
+
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -39,6 +39,24 @@ namespace volleyball
             L1 l1 = new L1();
             l1.Show();
             this.Hide();
+            StreamReader sr = new StreamReader("user.txt");
+            string line;
+            line = sr.ReadLine();
+            int i = 0;
+            DB db = new DB();
+
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            DataTable table = new DataTable();
+
+
+            MySqlCommand cmd = new MySqlCommand($"UPDATE `users` SET `progress` =1 WHERE login = '{line}'", db.getConnection());
+            adapter.SelectCommand = cmd;
+            adapter.Fill(table);
+
+
+
+
+
         }
 
         private void guna2Button2_Click(object sender, EventArgs e)

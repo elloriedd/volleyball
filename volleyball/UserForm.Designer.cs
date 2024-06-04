@@ -43,16 +43,14 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             label3 = new Label();
@@ -66,7 +64,6 @@
             guna2GradientButton3 = new Guna.UI2.WinForms.Guna2GradientButton();
             pictureBox1 = new PictureBox();
             guna2GroupBox3 = new Guna.UI2.WinForms.Guna2GroupBox();
-            guna2GradientButton5 = new Guna.UI2.WinForms.Guna2GradientButton();
             guna2GradientButton4 = new Guna.UI2.WinForms.Guna2GradientButton();
             guna2ProgressBar1 = new Guna.UI2.WinForms.Guna2ProgressBar();
             guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
@@ -292,53 +289,29 @@
             guna2GroupBox3.BackColor = Color.Transparent;
             guna2GroupBox3.BorderColor = Color.FromArgb(70, 70, 70);
             guna2GroupBox3.BorderRadius = 30;
-            guna2GroupBox3.Controls.Add(guna2GradientButton5);
             guna2GroupBox3.Controls.Add(guna2GradientButton4);
             guna2GroupBox3.Controls.Add(guna2ProgressBar1);
             guna2GroupBox3.Controls.Add(guna2GradientButton1);
             guna2GroupBox3.CustomBorderColor = Color.FromArgb(255, 128, 0);
-            guna2GroupBox3.CustomizableEdges = customizableEdges23;
+            guna2GroupBox3.CustomizableEdges = customizableEdges21;
             guna2GroupBox3.FillColor = Color.FromArgb(70, 70, 70);
             guna2GroupBox3.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 204);
             guna2GroupBox3.ForeColor = Color.White;
             guna2GroupBox3.Location = new Point(25, 3);
             guna2GroupBox3.Name = "guna2GroupBox3";
-            guna2GroupBox3.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2GroupBox3.ShadowDecoration.CustomizableEdges = customizableEdges22;
             guna2GroupBox3.Size = new Size(761, 178);
             guna2GroupBox3.TabIndex = 1;
             guna2GroupBox3.Text = "Статистика аккаунта";
             guna2GroupBox3.TextAlign = HorizontalAlignment.Center;
             guna2GroupBox3.Click += guna2GroupBox3_Click;
             // 
-            // guna2GradientButton5
-            // 
-            guna2GradientButton5.BackColor = Color.Transparent;
-            guna2GradientButton5.BorderRadius = 15;
-            guna2GradientButton5.Cursor = Cursors.Hand;
-            guna2GradientButton5.CustomizableEdges = customizableEdges15;
-            guna2GradientButton5.DisabledState.BorderColor = Color.DarkGray;
-            guna2GradientButton5.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2GradientButton5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2GradientButton5.DisabledState.FillColor2 = Color.FromArgb(169, 169, 169);
-            guna2GradientButton5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2GradientButton5.FillColor = Color.FromArgb(255, 128, 0);
-            guna2GradientButton5.FillColor2 = Color.Tomato;
-            guna2GradientButton5.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
-            guna2GradientButton5.ForeColor = Color.White;
-            guna2GradientButton5.Location = new Point(32, 120);
-            guna2GradientButton5.Name = "guna2GradientButton5";
-            guna2GradientButton5.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            guna2GradientButton5.Size = new Size(183, 36);
-            guna2GradientButton5.TabIndex = 10;
-            guna2GradientButton5.Text = "сосать";
-            guna2GradientButton5.Click += guna2GradientButton5_Click;
-            // 
             // guna2GradientButton4
             // 
             guna2GradientButton4.BackColor = Color.Transparent;
             guna2GradientButton4.BorderRadius = 15;
             guna2GradientButton4.Cursor = Cursors.Hand;
-            guna2GradientButton4.CustomizableEdges = customizableEdges17;
+            guna2GradientButton4.CustomizableEdges = customizableEdges15;
             guna2GradientButton4.DisabledState.BorderColor = Color.DarkGray;
             guna2GradientButton4.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2GradientButton4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -348,9 +321,9 @@
             guna2GradientButton4.FillColor2 = Color.Tomato;
             guna2GradientButton4.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             guna2GradientButton4.ForeColor = Color.White;
-            guna2GradientButton4.Location = new Point(322, 120);
+            guna2GradientButton4.Location = new Point(175, 121);
             guna2GradientButton4.Name = "guna2GradientButton4";
-            guna2GradientButton4.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            guna2GradientButton4.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2GradientButton4.Size = new Size(412, 36);
             guna2GradientButton4.TabIndex = 9;
             guna2GradientButton4.Text = "Перейти к урокам ";
@@ -359,13 +332,13 @@
             // guna2ProgressBar1
             // 
             guna2ProgressBar1.BorderRadius = 15;
-            guna2ProgressBar1.CustomizableEdges = customizableEdges19;
+            guna2ProgressBar1.CustomizableEdges = customizableEdges17;
             guna2ProgressBar1.FillColor = Color.Gray;
             guna2ProgressBar1.Location = new Point(32, 65);
             guna2ProgressBar1.Name = "guna2ProgressBar1";
             guna2ProgressBar1.ProgressColor = Color.Gold;
             guna2ProgressBar1.ProgressColor2 = Color.Lime;
-            guna2ProgressBar1.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            guna2ProgressBar1.ShadowDecoration.CustomizableEdges = customizableEdges18;
             guna2ProgressBar1.ShowText = true;
             guna2ProgressBar1.Size = new Size(702, 35);
             guna2ProgressBar1.TabIndex = 4;
@@ -379,7 +352,7 @@
             guna2GradientButton1.BackColor = Color.Transparent;
             guna2GradientButton1.BorderRadius = 15;
             guna2GradientButton1.Cursor = Cursors.Hand;
-            guna2GradientButton1.CustomizableEdges = customizableEdges21;
+            guna2GradientButton1.CustomizableEdges = customizableEdges19;
             guna2GradientButton1.DisabledState.BorderColor = Color.DarkGray;
             guna2GradientButton1.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2GradientButton1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -391,7 +364,7 @@
             guna2GradientButton1.ForeColor = Color.White;
             guna2GradientButton1.Location = new Point(-289, -515);
             guna2GradientButton1.Name = "guna2GradientButton1";
-            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2GradientButton1.ShadowDecoration.CustomizableEdges = customizableEdges20;
             guna2GradientButton1.Size = new Size(225, 35);
             guna2GradientButton1.TabIndex = 3;
             guna2GradientButton1.Text = "Перейти к урокам  >";
@@ -468,7 +441,6 @@
         private Panel panel1;
         private Panel panel2;
         private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton4;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton5;
         private PictureBox pictureBox2;
     }
 }

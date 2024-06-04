@@ -14,6 +14,7 @@ using Microsoft.SqlServer.Management.Smo;
 
 namespace volleyball
 {
+
     public partial class autorization : Form
     {
 
@@ -54,6 +55,10 @@ namespace volleyball
         {
             var loginUser = guna2TextBox6.Text;
             var passUser = guna2TextBox5.Text;
+            var path =  Directory.GetCurrentDirectory();
+            StreamWriter file = new StreamWriter("user.txt");
+            file.Write($"{loginUser}\n{passUser}");
+            file.Close();
 
             DB db = new DB();
 
@@ -71,6 +76,9 @@ namespace volleyball
             if(table.Rows.Count > 0)
             {
                 MessageBox.Show("Добро пожаловать!");
+                application app = new application();
+                app.Show();
+                this.Hide();
 
             }
             else
@@ -79,9 +87,7 @@ namespace volleyball
             }
 
 
-            application app = new application();
-            app.Show();
-            this.Hide();
+            
            
             
         }

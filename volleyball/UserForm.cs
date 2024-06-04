@@ -87,7 +87,7 @@ namespace volleyball
         {
             LessonForm lform = new LessonForm();
             lform.Show();
-            this.Hide();
+
         }
     }
 }

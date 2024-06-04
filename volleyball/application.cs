@@ -5,6 +5,7 @@ using static System.Windows.Forms.DataFormats;
 using MySql.Data.MySqlClient;
 using System.Data;
 using Guna.UI2.WinForms;
+using System.Windows.Shapes;
 
 namespace volleyball
 {
@@ -108,6 +109,7 @@ namespace volleyball
             leftpanel1.Visible = false;
             LessonForm lform = new LessonForm();
             lform.Show();
+
 
         }
 
@@ -237,8 +239,12 @@ namespace volleyball
 
         private void label2_Click(object sender, EventArgs e)
         {
-            autorization form1 = new autorization();
-            this.label2.Text = form1.login;
+
+            StreamReader sr = new StreamReader("user.txt");
+            var line = sr.ReadLine();
+            label2.Text = line;
+
+
         }
 
        
